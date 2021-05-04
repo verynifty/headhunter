@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC721/presets/ERC721PresetMinterPauserAutoId.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract NiftyAddons is ERC721PresetMinterPauserAutoId {
+contract Headhunter is ERC721PresetMinterPauserAutoId {
     constructor(
         string memory _name,
         string memory _symbol,

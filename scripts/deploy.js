@@ -17,7 +17,7 @@ async function main() {
   const Headhunter = await hre.ethers.getContractFactory("Headhunter");
   const headhunter = await Headhunter.deploy(
     "HEADHUNTER",
-    "HEADHUNTER",
+    "HH",
     "https://api.nft20.io/headhunter/"
   );
 
